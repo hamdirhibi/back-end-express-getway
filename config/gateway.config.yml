@@ -40,7 +40,7 @@ serviceEndpoints:
     
 policies:
   - basic-auth
-  - cors
+   #- cors
   - expression
   - key-auth
   - log
@@ -52,8 +52,29 @@ pipelines:
     apiEndpoints:
       - api
     policies:
-    # Uncomment `key-auth:` when instructed to in the Getting Started guide.
-    # - key-auth:
+      # - cors:
+      #     - action:
+      #         origin: ["*"]
+      #         methods: GET,POST,PUT,DELETE,OPTIONS
+      #         preflightContinue: true
+      #         optionsSuccessStatus: 200
+      #         credentials: true
+      #         maxAge: 600
+      #         allowedHeaders:
+      #           - Authorization
+      #         exposedHeaders:
+      #           - Authorization
+      # - key-auth:
+      #     - action:
+      #         apiKeyHeader: Authorization
+      #         disableHeadersScheme: false
+      #     - condition:
+      #         name: not
+      #         condition:
+      #           name: method
+      #           methods:
+      #             - OPTIONS
+
       - proxy:
           - action:
               serviceEndpoint: httpbin 
