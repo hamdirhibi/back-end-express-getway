@@ -1,0 +1,20 @@
+{
+  "name": "microservice-app",
+  "description": "Express Gateway Instance Bootstraped from Command Line",
+  "repository": {},
+  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-gateway": "^1.16.10"
+  },
+  "scripts": {
+    "start": "babel-node $1"
+  },
+
+  "devDependencies": {
+    "@babel/core": "^7.12.7",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.7"
+  }
+}
