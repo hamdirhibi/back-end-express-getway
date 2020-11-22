@@ -40,7 +40,7 @@ serviceEndpoints:
     
 policies:
   - basic-auth
-   #- cors
+  - cors
   - expression
   - key-auth
   - log
