@@ -12,7 +12,7 @@ apiEndpoints:
     paths: ['/user','/user/*']
   skill:
     host: localhost
-    paths: ['/skill','/skill/*']
+    paths: ['/skills','/skills/*']
   application:
     host: localhost
     paths: ['/application','/application/*']
