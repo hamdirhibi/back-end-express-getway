@@ -1,22 +1,14 @@
 # Microservice APP
-<p style="text-align: center;">
-  <img src="./assets/images/screenshot.png"/>
+<p style="text-align: center;" align=center>
+  <img src="./images/geteway.png"/>
 </p>
 
 ## 🎉 Project Keywords 
 
-- Deployment .
-- Services . 
-- Secret. 
-- ConfigMap . 
-- External Services (Load Balancer) . 
-- Docker images (mongo and mongo-express) . 
-- Sharing env variables between pods . 
+- Microservices
+- Express Getway
+- Nodejs
+- MongoDB
+- Express
 
-
-## 📋 Architecture  
-
-<p style="text-align: center;">
-  <img src="./assets/images/archtiecture.png"/>
-</p>
 
