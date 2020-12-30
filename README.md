@@ -5,8 +5,7 @@
 
 ## 🎉 Introduction 
 
-- You will find services repositories in my github repositories list  
-
+- You will find every microservices saved i this github 
 
 
 ## 🎉 Project Keywords 
